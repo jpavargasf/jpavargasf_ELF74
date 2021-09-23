@@ -2,5 +2,8 @@
 .bin
 .a
 .o
+.ewt
+.ewd
+.dep
 settings
 Debug
