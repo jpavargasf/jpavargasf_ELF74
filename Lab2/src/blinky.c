@@ -112,10 +112,6 @@ void buttonInit(uint8_t ui8Pins, void (*funPtr)(void)){
     GPIOIntEnable(GPIO_PORTJ_BASE,ui8Pins );
 }
 
-void GPIOChangeState(uint32_t ui32Port,uint8_t ui8Pins){
-    GPIOPinWrite(ui32Port,ui8Pins,~GPIOPinRead(ui32Port,ui8Pins));
-}
-
 //configura o SysTick, para ter interrupção a cada clockNumber clocks
 void configureSysTick(uint32_t clockNumber, void (*funPtr)(void)){
     SysTickPeriodSet(clockNumber);
