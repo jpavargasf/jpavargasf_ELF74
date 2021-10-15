@@ -1,12 +1,13 @@
 <h3>
-	Histograma Formado
+Histograma Formado
 </h3>
 <p>
-	Este README foi posto somente como um adendo para registrar a saída do histograma.
+Este README foi posto somente como um adendo para registrar a saída do histograma.
 </p>
 <p>
-	Imagem 0 (modificada)
+Imagem 0 (modificada)
 </p>
+
 	Imagem 0 (modificada)
 	0:1
 	1:4
@@ -20,10 +21,11 @@
 	[23:68]:0
 	69:1
 	[70:255]:0
-	
+
 <p>
-	Imagem 1
+Imagem 1
 </p>
+
 	Imagem 1
 	[0:13]:0
 	14:12
