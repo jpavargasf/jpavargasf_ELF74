@@ -127,4 +127,4 @@
 </table>
 
 <h3>Thread comunication diagram</h3>
-![Thread comunication diagram](threads_communication_diagram.png)
+<img src = "threads_communication_diagram.png">
