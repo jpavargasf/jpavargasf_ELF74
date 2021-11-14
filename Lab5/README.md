@@ -97,7 +97,7 @@
     <tr>
         <th>quque 0</th>
         <th>queue_0</th>
-        <th>100 * 64</th>
+        <th>100 * sizeof(ULONG)</th>
         <th>pointer</th>
     </tr>
     <tr>
