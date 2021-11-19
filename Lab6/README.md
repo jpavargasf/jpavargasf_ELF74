@@ -58,7 +58,7 @@ final. Use mutex sem herança de prioridade. Observe o efeito na temporização 
     <li>Período de T2 pode alterar devido a T1</li>
     <li>Período de T3 pode alterar devido a T2 e se T1 estiver com o mutex</li>
     <li>Período de T1 pode alterar devido a T3 estar com o mutex</li>
-</ul>ul>
+</ul>
 
 <h3>e) Idem acima, mas com herança de prioridade.</h3>
 <ul>
@@ -67,4 +67,4 @@ final. Use mutex sem herança de prioridade. Observe o efeito na temporização 
     <li>Período de T2 pode alterar devido a T1 e quando T3 estiver com mutex</li>
     <li>Período de T3 pode alterar devido a T2 e se T1 estiver com o mutex</li>
     <li>Período de T1 pode alterar devido a T3 estar com o mutex</li>
-</ul>ul>
+</ul>
