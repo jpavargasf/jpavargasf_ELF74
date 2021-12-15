@@ -29,7 +29,8 @@
     EXTERN  _tx_execution_isr_exit
 ;
 ;
-SYSTEM_CLOCK      EQU   25000000
+;SYSTEM_CLOCK      EQU   25000000       ;alterado dia 15/12
+SYSTEM_CLOCK      EQU   120000000       ;alterado dia 15/12
 SYSTICK_CYCLES    EQU   ((SYSTEM_CLOCK / 100) -1)
 
     RSEG    FREE_MEM:DATA
